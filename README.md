@@ -50,6 +50,11 @@
             border-radius: 3px;
             cursor: pointer;
         }
+
+        /* Change the color of text to white */
+        #letterContainer {
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -59,7 +64,7 @@
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
 
-            <label for "password">Password:</label>
+            <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
             <button type="submit">Login</button>
@@ -97,4 +102,3 @@
     </script>
 </body>
 </html>
-
